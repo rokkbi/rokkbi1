@@ -1,0 +1,24 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+#ico {width:90px;margin-left:42%;}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+#ico {width:90px;margin-left:39%;}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+#ico {margin-left:36%;}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+#ico {margin-left:33%;}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+#ico {margin-left:13%;}
+}
